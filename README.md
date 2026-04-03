@@ -1,0 +1,32 @@
+Complete, optimal, ready-to-run Lua Config for the NeoVIM VI editor on Ubuntu 24.04.
+I designed it to be:Local-first & private (runs 100% offline with Ollama)
+Zero extra dependencies beyond curl (already on Ubuntu)
+Feels exactly like classic vi — you type natural language right where you expect the : prompt
+Safe — always shows you the exact Vim/Neovim command before running it
+Newbie-friendly — teaches real Vim syntax while doing the work for you
+
+# 1. Update system
+sudo apt update && sudo apt upgrade -y
+
+# 2. Install latest Neovim (0.10+ recommended — Ubuntu's default 0.9.5 works but this is better)
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt update
+sudo apt install neovim -y
+
+# 3. Install Ollama + a fast model perfect for command translation
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3.2:3b   # super fast & excellent at Vim commands
+# (optional faster alternative: ollama pull qwen2.5-coder:1.5b)
+
+# 4. Create the Neovim config directory
+mkdir -p ~/.config/nvim
+# 5. Save the source as the following :
+~/.config/nvim/init.lua
+
+This is a complete, self-contained config — no plugin manager needed for the core feature.
+
+How to use it Open Neovim: "nvim file.txt"
+Type :AI delete every line that contains TODO
+Or press <Space>ai (leader is Space by default)
+The AI instantly translates → shows you the exact command → you confirm or edit
+
