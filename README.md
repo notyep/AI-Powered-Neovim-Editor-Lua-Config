@@ -1,10 +1,10 @@
-#Complete, optimal, ready-to-run Lua Config for the NeoVIM VI editor on Ubuntu 24.04.
+#Complete, optimal, ready-to-run Lua Config for the NeoVIM VI editor (the greatest VI editor on the planet) on Ubuntu 24.04.
 I designed it to be:Local-first & private (runs 100% offline with Ollama)
 Zero extra dependencies beyond curl (already on Ubuntu)
 Feels exactly like classic vi — you type natural language right where you expect the : prompt
 Safe — always shows you the exact Vim/Neovim command before running it
 Newbie-friendly — teaches real Vim syntax while doing the work for you
-*NOTE* You can run this on a modest 6 core CPU system with 16GB of RAM (won't be that fast but will work).
+*NOTE* You can run this on a modest 6 core CPU system with 16GB of RAM with atleast 25GB of extra disk space for llama3.2 (won't be that fast but will work).
 The more hp the better! 
 
 # 1. Update system
