@@ -7,6 +7,16 @@ Newbie-friendly — teaches real Vim syntax while doing the work for you
 *NOTE* You can run this on a modest 6 core CPU system with 16GB of RAM with atleast 25GB of extra disk space for llama3.2 (won't be that fast but will work).
 The more hp the better! 
 
+## ❤️ Support the Project
+
+This software is completely free and open-source. I maintain it in my spare time because I love building tools that help developers.
+
+If you find it useful and want to help sustain ongoing development, bug fixes, and new features, please consider [sponsoring me on GitHub Sponsors](https://github.com/sponsors/notyep)!
+
+Every contribution—big or small—makes a real difference.
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4)](https://github.com/sponsors/notyep)
+
 # 1. Update system
 sudo apt update && sudo apt upgrade -y
 
