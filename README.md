@@ -1,4 +1,6 @@
-#Complete, optimal, ready-to-run Lua Config for the NeoVIM VI editor (the greatest VI editor on the planet) on Ubuntu 24.04.
+##Complete, optimal, ready-to-run A.I. Powered Lua Config for the Neovim VI editor (the greatest VI editor on the planet) on Ubuntu 24.04.
+It makes NeoVIM A.I. powered, enabling the user to query the llama3.2 LLM from the command line to process VI commands! 
+This is the first of it's kind!!
 I designed it to be:Local-first & private (runs 100% offline with Ollama)
 Zero extra dependencies beyond curl (already on Ubuntu)
 Feels exactly like classic vi — you type natural language right where you expect the : prompt
